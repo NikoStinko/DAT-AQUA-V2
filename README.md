@@ -1,4 +1,4 @@
-# dat_aqua
+# DAT-AQUA Project
 
 
 
@@ -50,4 +50,11 @@ You can use the API of the application to provide data without using the UI with
 
 ```
 curl -X POST -F "fileToUpload=@/path/to/file/example-data.TXT" https://dat-aqua.lbtrd.fr/api.php
+```
+
+/!\ If the API fail to move the uploaded file, use this commands :
+
+```
+sudo chown -R www-data:www-data ./upload
+sudo chmod -R 755 ./upload
 ```
