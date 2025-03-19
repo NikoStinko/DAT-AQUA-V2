@@ -58,3 +58,7 @@ curl -X POST -F "fileToUpload=@/path/to/file/example-data.TXT" https://dat-aqua.
 sudo chown -R www-data:www-data ./upload
 sudo chmod -R 755 ./upload
 ```
+
+# Arduino interface
+
+Arduino code to share data with the API. 
